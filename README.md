@@ -6,6 +6,10 @@ We proposed a modified version of our previous HOR annotation tool [HiCAT](https
 
 Python 3.9.13
 
+Development environment: Linux
+
+Development tool: Pycharm
+
 | Packages           | Version |
 | ------------------ | ------- |
 | biopython          | 1.79    |
@@ -21,8 +25,6 @@ Python 3.9.13
 | setuptools         | 61.2.0  |
 
 [StringDecomposer](https://github.com/ablab/stringdecomposer)  version 1.1.2.
-Development environment: Linux
-Development tool: Pycharm
 
 ## Installation
 
