@@ -1298,18 +1298,6 @@ def main():
     show_hor_number = args.show_hor_number
     show_hor_min_repeat_number = args.show_hor_min_repeat_number
 
-    # decomposition_path = 'D:/CPC_centromere/CHM13_ref/chr5/final_decomposition.tsv'
-    # base_sequence_path = 'D:/CPC_centromere/CHM13_ref/chr5/input_fasta.1.fa'
-    # template_monomers = 'D:/CPC_centromere/CHM13_ref/chr5/test/out_monomer_represent.fa'
-    # outdir = 'D:/CPC_centromere/CHM13_ref/chr5/test'
-    #
-    # min_similarity = 0.9
-    # max_hor_len = 40
-    # thread = 1
-    #
-    # show_hor_number = 5
-    # show_hor_min_repeat_number = 10
-
     print('build block sequence and read base sequence')
     base_sequence = ''
     with open(base_sequence_path, 'r') as f:

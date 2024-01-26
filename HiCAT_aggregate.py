@@ -337,13 +337,6 @@ def main():
     show_hor_number = args.show_hor_number
     show_hor_min_repeat_number = args.show_hor_min_repeat_number
 
-    # pattern_file = 'D:/CPC_centromere/HiCAT_mini/pattern.table.xls'
-    # target_chr = '5'
-    # hicat_outdir = 'D:/CPC_centromere/HiCAT_mini/HiCAT_mini_out/'
-
-    show_hor_number = 5
-    show_hor_min_repeat_number = 10
-
     pattern_table = {}
     pattern_mono_table = {}
     with open(pattern_file,'r') as pf:
