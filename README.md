@@ -1,6 +1,6 @@
 # HiCAT-human
 
-We proposed a modified version of our previous HOR annotation tool HiCAT (https://github.com/xjtu-omics/HiCAT) for automatically annotating centromere HOR patterns from both HiFi reads and assemblies of multiple human samples.
+We proposed a modified version of our previous HOR annotation tool [HiCAT](https://github.com/xjtu-omics/HiCAT) for automatically annotating centromere HOR patterns from both HiFi reads and assemblies of multiple human samples.
 
 ## Dependencies
 
@@ -20,7 +20,7 @@ Python 3.9.13
 | seqtk              | 1.2     |
 | setuptools         | 61.2.0  |
 
-StringDecomposer (https://github.com/ablab/stringdecomposer)  version 1.1.2.
+[StringDecomposer](https://github.com/ablab/stringdecomposer)  version 1.1.2.
 Development environment: Linux
 Development tool: Pycharm
 
