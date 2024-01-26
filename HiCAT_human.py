@@ -13,6 +13,9 @@ def hicat_human_reads(args):
     hicat_reads_annotation = script_path + '/HiCATReads_annotation.py'
     ref_dir = script_path + '/HiCAT_ref'
 
+    cmd = 'mkdir -p ' + workdir
+    os.system(cmd)
+
     with open(workdir + '/read_count', 'w') as o:
         with open(sample_list, 'r') as f:
             for line in f:
@@ -157,6 +160,9 @@ def hicat_human_only_reads(args):
     hicat_reads_annotation = script_path + '/HiCATReads_annotation.py'
     ref_dir = script_path + '/HiCAT_ref'
 
+    cmd = 'mkdir -p ' + reads_workdir
+    os.system(cmd)
+
     with open(reads_workdir + '/read_count', 'w') as o:
         with open(reads_sample_list, 'r') as f:
             for line in f:
@@ -234,6 +240,9 @@ def hicat_human_reads_with_assembly(args):
     hicat_reads_classification = script_path + '/HiCATReads_classification.py'
     hicat_reads_annotation = script_path + '/HiCATReads_annotation.py'
     ref_dir = script_path + '/HiCAT_ref'
+
+    cmd = 'mkdir -p ' + reads_workdir
+    os.system(cmd)
 
     with open(reads_workdir + '/read_count', 'w') as o:
         with open(reads_sample_list, 'r') as f:
