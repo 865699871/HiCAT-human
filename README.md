@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/748088016.svg)](https://zenodo.org/doi/10.5281/zenodo.10570850)
 # HiCAT-human
 
 We proposed a modified version of our previous HOR annotation tool [HiCAT](https://github.com/xjtu-omics/HiCAT) for automatically annotating centromere HOR patterns from both HiFi reads and assemblies of multiple human samples.
@@ -114,6 +115,3 @@ If you have any questions, please feel free to contact: [gaoxian15002970749@163.
 ## Reference
 
 Please cite the following paper when you use HiCAT-human in your work
-
-Shenghan Gao, Yimeng Zhang, Stephen James Bush, Bo Wang, Xiaofei Yang, Kai Ye
-bioRxiv 2024.01.26.577337; doi: https://doi.org/10.1101/2024.01.26.577337
